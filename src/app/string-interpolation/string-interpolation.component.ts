@@ -19,6 +19,7 @@ export class StringInterpolationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // Função para mudar a cor de acordo com o intervalo
     setInterval( () => {
       this.idx = (this.idx+1) % this.colors.length;
     },100)

@@ -10,6 +10,9 @@ import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { EventBindingComponent } from './event-binding/event-binding.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 
 
 
@@ -19,7 +22,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 @NgModule({
   declarations: [
     AppComponent,
-    StringInterpolationComponent
+    StringInterpolationComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatInputModule,
     MatIconModule,
     MatSlideToggleModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatProgressSpinnerModule
 
   ],
   providers: [],
